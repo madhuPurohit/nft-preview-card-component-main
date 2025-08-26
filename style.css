@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* 
+
+/* General Body Styling */
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: hsl(215, 51%, 70%);
+}
+
+/* Card Box */
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 15px 25px rgba(0,0,0,0.5);
+}
+
+/* NFT Image */
+.image-container img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+/* Heading */
+h1 {
+  font-size: 18px;
+  margin: 20px 0 10px;
+  color: hsl(0, 0%, 100%);
+}
+
+/* Paragraph */
+p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* ETH and Time */
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.details .price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+
+.details .time {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Horizontal Line */
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  margin: 20px 0;
+}
+
+/* Creator Section */
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.creator img {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+.creator p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.creator span {
+  color: white;
+  font-weight: bold;
+}
